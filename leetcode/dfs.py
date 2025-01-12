@@ -12,5 +12,3 @@ class Solution:
         if root.left is None and root.right:
             return True
 
-
-1 4 6 
