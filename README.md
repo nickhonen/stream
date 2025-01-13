@@ -6,4 +6,4 @@ Here is a repository of a lot of the code I write on stream, and it also contain
 
 ### Why notes without code?
 
-After enough time, I've decided I think the best way to keep track of this stuff is to write NOTES down here/track what problems I've solved, but saving all the code here is too much and annoying. Imo, it's meaningfully important to know what LC problems you are solving and when. Mainly to go back and see if you're learning the material, see what you need to practice, etc. Spaced repetition stuff, idk.
+After enough time, I've decided I think the best way to keep track of this stuff is to write NOTES down here/track what problems I've solved, but saving all the code here is too much and annoying. Imo, it's meaningfully important to know what LC problems you are solving and when. Mainly to go back and see if you're learning the material, see what you need to practice, etc. Spaced repetition stuff, seeing number go up over time, squares becoming green, positive feedback loops, idk.

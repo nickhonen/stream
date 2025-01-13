@@ -6,9 +6,20 @@ class TreeNode:
 
 class Solution:
     def intro_dfs(self, root):
-        if root is None:
-            return -9998999
-        
         if root.left is None and root.right:
             return True
 
+    def invert_tree(self, root: Optional[TreeNode]):
+        if root is None:
+            return []
+
+        result = []
+        stack = [[root]]
+
+        while stack:
+            node = stack.pop()
+            if node:
+                node.left, node.right = node.right, node.left
+                stack.extend([node.right, node.left])
+            print(node)
+        return stack
