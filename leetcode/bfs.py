@@ -39,7 +39,8 @@ class Solution:
 
             for _ in range(level_size):
                 curr_node = queue.popleft()
-                curr_level.append(curr_node)
+                # unsure if .val or not
+                curr_level.append(curr_node.val)
 
                 if curr_node.left:
                     queue.append(curr_node.left)

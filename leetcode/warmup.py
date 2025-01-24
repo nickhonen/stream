@@ -30,6 +30,8 @@ class Solution:
             count += 1
             d[char] = count
         return len(d.keys())
+    
+    def 
 
     
 

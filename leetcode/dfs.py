@@ -5,9 +5,22 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def intro_dfs(self, root):
-        if root.left is None and root.right:
-            return True
+    def recursive_dfs(self, root):
+        print()
+
+    def iterative_dfs(self, root):
+        if root is None:
+            return []
+        stack = [root]
+
+        while stack:
+            node = stack.pop()
+            if node:
+                print(node)
+                stack.append(node.)
+
+        return stack
+
 
     def invert_tree(self, root: Optional[TreeNode]):
         if root is None:
